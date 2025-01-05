@@ -69,7 +69,7 @@ export function SearchEngine() {
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-16 relative z-10 pt-26">
+      <div className="container mx-auto px-4 py-16 relative z-10 pt-36">
         <div className="text-center mb-16">
           <div className="glitch-container">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 glitch-text">DorkDog</h1>
