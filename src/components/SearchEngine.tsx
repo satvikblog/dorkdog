@@ -74,12 +74,12 @@ export function SearchEngine() {
           <div className="glitch-container">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 glitch-text">DorkDog</h1>
           </div>
-          <p className="text-xl md:text-2xl text-[#00ccff] cyber-subtitle">Advanced Search Engine for Hackers ✨</p>
+          <p className="text-xl md:text-2xl text-[#00ff9d] cyber-subtitle">Advanced Search Engine for Hackers ✨</p>
         </div>
 
         <div className="max-w-3xl mx-auto mb-16">
           <div className="relative group">
-            <div className="cyber-input-glow absolute -inset-1 bg-gradient-to-r from-[#00ff9d] via-[#00ccff] to-[#00ff9d] rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+            <div className="cyber-input-glow absolute -inset-1 bg-gradient-to-r from-[#00ff9d] via-[#00ff9d] to-[#00ff9d] rounded-lg blur opacity-30 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative flex items-center">
               <Terminal className="absolute left-4 text-[#00ff9d] w-5 h-5" />
               <input

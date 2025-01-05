@@ -36,7 +36,7 @@ export function QuerySection({ title, queries, onSearch, icon }: QuerySectionPro
             >
               <div className="absolute inset-0 bg-gradient-to-r from-[#00ff9d]/0 via-[#00ff9d]/5 to-transparent 
                               translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-300"></div>
-              <span className="text-sm text-[#00ccff] group-hover:text-[#00ff9d] relative">
+              <span className="text-sm text-[#00ff9d] group-hover:text-[#00ff9d] relative">
                 {label}
               </span>
               <ChevronRight className="w-4 h-4 text-[#00ff9d] opacity-0 

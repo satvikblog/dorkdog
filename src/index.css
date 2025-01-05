@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Share Tech Mono', monospace;
-  background: #000000;
+  background: #ccc5c5;
 }
 
 /* Matrix Rain Animation */
@@ -90,7 +90,7 @@ body {
 }
 
 .cyber-glow {
-  animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.0s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
