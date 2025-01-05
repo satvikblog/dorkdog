@@ -24,7 +24,7 @@ export function SearchEngine() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIconIndex((prevIndex) => (prevIndex + 1) % icons.length);
-    }, 2500); // Change icon every 2.5 seconds
+    }, 1500); // Change icon every 2.5 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
