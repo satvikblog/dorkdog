@@ -47,14 +47,14 @@ export function SearchEngine() {
         <div className="container mx-auto px-4 flex flex-wrap items-center justify-between py-4 md:py-6">
           <div className="flex items-center space-x-4">
             <div className="glitch-container">{icons[iconIndex]}</div>
-            <h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-[#00ff9d] whitespace-nowrap">DorkDog</h1>
+            <h1 className="text-lg md:text-2xl lg:text-3xl font-bold text-[#00ff9d] whitespace-nowrap">DorkDog </h1>
           </div>
           <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 mt-4 sm:mt-0">
             <a
               href="mailto:contact@satvik.live"
               className="text-[#00ff9d] hover:text-[#00ccff] text-sm sm:text-base transition duration-300"
             >
-              Contact the Developer
+              Contact the Developer.
             </a>
             <span className="hidden sm:block text-[#00ff9d]">|</span>
             <a
