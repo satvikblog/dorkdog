@@ -9,7 +9,7 @@ const formatKeywordQuery = (query: string, keyword: string): string => {
       .replace(/inurl:"\/parent directory"/, `inurl:"\/parent directory" ${keyword}`);
   }
 
-  // For other categories when given a keyword
+  // For other categories when given a keyword is 
   if (query.includes('site:{domain}')) {
     return query
       .replace(/site:\{domain\}\s+/g, '')
