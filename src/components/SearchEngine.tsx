@@ -51,14 +51,14 @@ export function SearchEngine() {
           </div>
           <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 mt-4 sm:mt-0">
             <a
-              href="mailto:contact@satvik.live"
+              href="#"
               className="text-[#00ff9d] hover:text-[#00ccff] text-sm sm:text-base transition duration-300"
             >
               Contact the Developer.
             </a>
             <span className="hidden sm:block text-[#00ff9d]">|</span>
             <a
-              href="https://satvik.live"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#00ff9d] hover:text-[#00ccff] text-sm sm:text-base transition duration-300"
@@ -132,12 +132,12 @@ export function SearchEngine() {
             <span className="text-[#00ff9d] animate-pulse">❤</span>{' '}
             by{' '}
             <a
-              href="https://satvik.live"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#00ff9d] font-bold underline hover:text-[#00ccff] transition"
             >
-              Satvik Vemulapalli
+              Developer
             </a>
           </p>
         </footer>
